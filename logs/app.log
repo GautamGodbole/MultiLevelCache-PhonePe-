@@ -1,10 +1,3 @@
-2024-09-14 16:59:36 ERROR org.example.CacheApplication - Gautam
-2024-09-14 17:00:46 ERROR org.example.CacheApplication - Gautam
-2024-09-14 17:01:51 ERROR org.example.CacheApplication - Gautam
-2024-09-14 17:02:12 ERROR org.example.CacheApplication - Gautam
-2024-09-14 17:06:14 ERROR org.example.CacheApplication - Gautam
-2024-09-14 17:25:44 INFO  org.example.CacheApplication - abc
-2024-09-14 17:25:44 INFO  org.example.CacheApplication - null
 2024-09-14 17:25:44 INFO  org.example.multilevelcache.statistics.CacheStatistics - ----- Cache Summary ------
 2024-09-14 17:25:44 INFO  org.example.multilevelcache.statistics.CacheStatistics - Average Read Time - last 5 READs (in ns) : 8
 2024-09-14 17:25:44 INFO  org.example.multilevelcache.statistics.CacheStatistics - Average Write Time - last 5 WRITEs (in ns) : 29
@@ -63,3 +56,18 @@
 2024-09-14 17:49:24 INFO  org.example.multilevelcache.statistics.CacheStatistics - Cache2 : {usage=3, capacity=20, hit=0, miss=1}
 2024-09-14 17:49:24 INFO  org.example.multilevelcache.statistics.CacheStatistics - Cache3 : {usage=3, capacity=40, hit=0, miss=1}
 2024-09-14 17:49:24 INFO  org.example.multilevelcache.statistics.CacheStatistics - Cache4 : {usage=3, capacity=80, hit=0, miss=1}
+2024-09-14 18:56:18 INFO  org.example.multilevelcache.CacheManager - write: wrote key : 1 in time(ns) : 29
+2024-09-14 18:56:18 INFO  org.example.multilevelcache.CacheManager - write: wrote key : 2 in time(ns) : 29
+2024-09-14 18:56:18 INFO  org.example.multilevelcache.CacheManager - write: wrote key : 3 in time(ns) : 29
+2024-09-14 18:56:18 INFO  org.example.multilevelcache.CacheManager - read: found key : 1 with value abc at level : 0
+2024-09-14 18:56:18 INFO  org.example.CacheApplication - abc
+2024-09-14 18:56:18 INFO  org.example.multilevelcache.CacheManager - read: key : 5 not found
+2024-09-14 18:56:18 INFO  org.example.CacheApplication - null
+2024-09-14 18:56:18 INFO  org.example.multilevelcache.statistics.CacheStatistics - ----- Cache Summary ------
+2024-09-14 18:56:18 INFO  org.example.multilevelcache.statistics.CacheStatistics - Average Read Time - last 5 READs (in ns) : 8
+2024-09-14 18:56:18 INFO  org.example.multilevelcache.statistics.CacheStatistics - Average Write Time - last 5 WRITEs (in ns) : 29
+2024-09-14 18:56:18 INFO  org.example.multilevelcache.statistics.CacheStatistics - ---- Cache Statistics -----
+2024-09-14 18:56:18 INFO  org.example.multilevelcache.statistics.CacheStatistics - Cache1 : {usage=3, capacity=10, hit=1, miss=1}
+2024-09-14 18:56:18 INFO  org.example.multilevelcache.statistics.CacheStatistics - Cache2 : {usage=3, capacity=20, hit=0, miss=1}
+2024-09-14 18:56:18 INFO  org.example.multilevelcache.statistics.CacheStatistics - Cache3 : {usage=3, capacity=40, hit=0, miss=1}
+2024-09-14 18:56:18 INFO  org.example.multilevelcache.statistics.CacheStatistics - Cache4 : {usage=3, capacity=80, hit=0, miss=1}
